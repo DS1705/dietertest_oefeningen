@@ -35,9 +35,9 @@ int main(void)
         printf("%.2f %c %.2f = %.2f", num1, operand, num2, res);
         break;
     }
-    default:
+    /*default:
         printf("%c is not a valid operand.", operand);
-        break;
+        break;*/
     }
 
     return 0;
